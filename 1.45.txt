@@ -24,12 +24,6 @@ elseif game.placeId == 2753915549 then                                          
     local Tab = Window:NewTab("BloxFruit(OldWorld)")
     BloxFruitold = Tab:NewSection("Menu")
 
-    BloxFruitold:NewButton("ZenonHub", "ZenonHub Is Not XenonHub", function()
-        _G.Keys = "E9F22-994C7-7D7D5-ABD57" 
-        _G.Color = Color3.fromRGB(222, 37, 0) 
-        loadstring(game:HttpGet("https://pastebin.com/raw/Y0sAs42t"))()
-    end)
-
     BloxFruitold:NewButton("EvilHub", "Goodluck", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
     end)
@@ -54,11 +48,6 @@ elseif game.placeId == 2753915549 then                                          
 
     BloxFruitold:NewButton("MheeHub", "Goodluck", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
-    end)
-
-    BloxFruitold:NewButton("MagMa Hub", "Goodluck", function()
-        getgenv().key = "MAMMOZ"
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/toeydeklnw/crack/main/magma.lua"))()
     end)
 
     BloxFruitold:NewButton("SkyHub", "Goodluck", function()
