@@ -1026,7 +1026,7 @@ elseif game.placeId == 185655149 then
 
         Bloxburg:NewButton("DarkHub", "Goodluck", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
-
+    end)
         --GrandPiece
 elseif game.placeId == 1730877806 then
 
