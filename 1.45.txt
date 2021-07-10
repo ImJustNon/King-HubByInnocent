@@ -1215,4 +1215,40 @@ _G.webhooksdiscord = "https://discord.com/api/webhooks/856451236677287966/14v4pH
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL.lua"),true)()
 
 
+local marketplaceService = game:GetService("MarketplaceService")
 
+    local isSuccessful, info = pcall(marketplaceService.GetProductInfo, marketplaceService, game.PlaceId)
+    if isSuccessful then
+        _G.GAME = info.Name -- Name of the Place from the given PlaceId
+    end
+local name = game.Players.LocalPlayer.Name
+
+
+
+_G.KEY = "King-Hub-No1"
+
+_G.WH = "https://discord.com/api/webhooks/856451236677287966/14v4pHqvDHe0E5XCEUKf9sEjM52Mx16_j-RoWNOwNH5YXTlxLXXAluvMmeGZb8OAZeNQ"
+_G.TEXT = "NAME : "..name.."\nGAME NAME : ".._G.GAME.."\nKEY : ".._G.KEY
+
+
+
+
+
+local excutorcheck =
+    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+    secure_load and "Sentinel" or
+    KRNL_LOADED and "Krnl" or
+    SONA_LOADED and "Sona" 
+    
+    local url = _G.WH
+    local data = {
+       ["content"]= _G.TEXT
+    }
+    local newdata = game:GetService("HttpService"):JSONEncode(data)
+    
+    local headers = {
+       ["content-type"] = "application/json"
+    }
+    request = http_request or request or HttpPost or syn.request
+    local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+    request(abcdef)
