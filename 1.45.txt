@@ -1200,6 +1200,10 @@ A_Bizarre_Day:NewButton("FreeScript1", "Goodluck", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreHackRe"),true))() 
 end)
 
+A_Bizarre_Day:NewButton("FreeScript2", "Goodluck", function()
+loadstring(game:HttpGet("https://hastebin.com/raw/mocozopofe.md", true))()
+end)
+
 elseif game.placeId == 3400631762 then
     local Tab = Window:NewTab("A Bizarre Day")
     ABizarreDay = Tab:NewSection("Menu")
