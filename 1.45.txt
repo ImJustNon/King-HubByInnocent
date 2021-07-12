@@ -1196,15 +1196,36 @@ elseif game.placeId == 2686500207 then
     local Tab = Window:NewTab("A Bizarre Day")
     A_Bizarre_Day = Tab:NewSection("Menu")
 
-A_Bizarre_Day:NewButton("FreeScript1", "Goodluck", function()
+ABizarreDay:NewButton("FreeScript1", "Goodluck", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreHackRe"),true))() 
 end)
+
+elseif game.placeId == 3400631762 then
+    local Tab = Window:NewTab("A Bizarre Day")
+    ABizarreDay = Tab:NewSection("Menu")
+
+ABizarreDay:NewButton("FreeScript1", "Goodluck", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1BDzxWYL", true))()
+end)
+
+ABizarreDay:NewButton("FreeScript2", "Goodluck", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/faxng/public-scripts/master/JOJOBLOX_GUI_UPDATED-obfuscated.lua'),true))()
+end)
+
+ABizarreDay:NewButton("FreeScript3", "Goodluck", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoNnYhA55/JoJo-Blox-Hack/main/JoJo_Blox_V3-obfuscated.lua",true))()
+end)
+
+
+
+
+
 
 
 
 else                                                                           --Not support
     local Tab = Window:NewTab("Not Support")
-    NotSupport = Tab:NewSection("ไม่ Support ไอ้สัส")
+    NotSupport = Tab:NewSection("ไม่ Support")
     
     NotSupport:NewButton("ลองกดดิ","กดเลยยย", function()
         game.Players.LocalPlayer:Kick("ไอ้ควาย")
