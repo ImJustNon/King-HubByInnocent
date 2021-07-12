@@ -1232,6 +1232,34 @@ SakuraStand:NewButton("Script1", "Goodluck", function()
 end)
 
 
+elseif game.placeId == 4855457388 then                                                                             --DemonFall
+
+    local Tab = Window:NewTab("Demon Fall")
+    DemonFall = Tab:NewSection("Menu")
+
+    DemonFall:NewButton("Tokyo Manji Scripts", "Key : DemonFallEZ?", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Demon%20Fall%20TOMAN"))()
+    end)
+
+    DemonFall:NewButton("Amateur Hub", "Goodluck", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSHYEXPLOITS/AmateurHub/main/Amateur%20Hub"))()
+    end)
+
+    DemonFall:NewButton("Green Script GUI", "Goodluck", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/5s2q2nXq", true))()
+    end)
+
+    DemonFall:NewButton("Script1", "Goodluck", function()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/JF1KQMUc"))()
+    end)
+
+    DemonFall:NewButton("Script2", "Goodluck", function()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/RTs3tj0Y"))()
+    end)
+
+
+
+
 
 
 
