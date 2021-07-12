@@ -1196,7 +1196,7 @@ elseif game.placeId == 2686500207 then
     local Tab = Window:NewTab("A Bizarre Day")
     A_Bizarre_Day = Tab:NewSection("Menu")
 
-ABizarreDay:NewButton("FreeScript1", "Goodluck", function()
+A_Bizarre_Day:NewButton("FreeScript1", "Goodluck", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreHackRe"),true))() 
 end)
 
@@ -1216,6 +1216,16 @@ ABizarreDay:NewButton("FreeScript3", "Goodluck", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NoNnYhA55/JoJo-Blox-Hack/main/JoJo_Blox_V3-obfuscated.lua",true))()
 end)
 
+
+elseif game.placeId == 5170554573 then
+    local Tab = Window:NewTab("Sakura Stand")
+    SakuraStand = Tab:NewSection("Menu")
+SakuraStand:NewButton("LioK Hub", "Goodluck", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/LioKHUB", true))()
+end)
+SakuraStand:NewButton("Script1", "Goodluck", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1CwBQykm"))();
+end)
 
 
 
