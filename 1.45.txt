@@ -1257,6 +1257,17 @@ elseif game.placeId == 4855457388 then                                          
         loadstring(Game:HttpGet("https://pastebin.com/raw/RTs3tj0Y"))()
     end)
 
+    local Tab = Window:NewTab("Get Key")
+    Key1 = Tab:NewSection("Tokyo Manji Scripts")
+    Key1:NewButton("Key : DemonFallEZ?", "Tokyo Manji Scripts", function()
+        warn("DemonFallEZ?")
+    end)
+
+    Key2 = Tab:NewSection("Amateur Hub")
+    Key2:NewButton("Key : sm8_&b!JR-yENeKL", "Amateur Hub", function()
+        warn("8%+VRHx9?^4A!jPV")
+    end)
+
 elseif game.placeId == 5094651510 then                                                                             --DemonFall(History)
 
     local Tab = Window:NewTab("Demon Fall")
@@ -1282,6 +1293,16 @@ elseif game.placeId == 5094651510 then                                          
         loadstring(Game:HttpGet("https://pastebin.com/raw/RTs3tj0Y"))()
     end)
 
+    local Tab = Window:NewTab("Get Key")
+    Key1 = Tab:NewSection("Tokyo Manji Scripts")
+    Key1:NewButton("Key : DemonFallEZ?", "Tokyo Manji Scripts", function()
+        warn("DemonFallEZ?")
+    end)
+
+    Key2 = Tab:NewSection("Amateur Hub")
+    Key2:NewButton("Key : sm8_&b!JR-yENeKL", "Amateur Hub", function()
+        warn("8%+VRHx9?^4A!jPV")
+    end)
 
 
 
