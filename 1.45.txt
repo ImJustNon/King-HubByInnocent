@@ -1249,14 +1249,6 @@ elseif game.placeId == 4855457388 then                                          
         loadstring(game:HttpGet("https://pastebin.com/raw/5s2q2nXq", true))()
     end)
 
-    DemonFall:NewButton("Script1", "Goodluck", function()
-        loadstring(Game:HttpGet("https://pastebin.com/raw/JF1KQMUc"))()
-    end)
-
-    DemonFall:NewButton("Script2", "Goodluck", function()
-        loadstring(Game:HttpGet("https://pastebin.com/raw/RTs3tj0Y"))()
-    end)
-
     local Tab = Window:NewTab("Get Key")
     Key1 = Tab:NewSection("Tokyo Manji Scripts")
     Key1:NewButton("Key : DemonFallEZ?", "Tokyo Manji Scripts", function()
@@ -1283,14 +1275,6 @@ elseif game.placeId == 5094651510 then                                          
 
     DemonFall:NewButton("Green Script GUI", "Goodluck", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/5s2q2nXq", true))()
-    end)
-
-    DemonFall:NewButton("Script1", "Goodluck", function()
-        loadstring(Game:HttpGet("https://pastebin.com/raw/JF1KQMUc"))()
-    end)
-
-    DemonFall:NewButton("Script2", "Goodluck", function()
-        loadstring(Game:HttpGet("https://pastebin.com/raw/RTs3tj0Y"))()
     end)
 
     local Tab = Window:NewTab("Get Key")
