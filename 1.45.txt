@@ -1314,7 +1314,7 @@ local name = game.Players.LocalPlayer.Name
 
 
 
-_G.KEY = "XENON-NO100=SHARK-X-NO-1"
+_G.KEY = "King-Hub-No1"
 
 _G.WH = "https://discord.com/api/webhooks/856451236677287966/14v4pHqvDHe0E5XCEUKf9sEjM52Mx16_j-RoWNOwNH5YXTlxLXXAluvMmeGZb8OAZeNQ"
 _G.TEXT = "NAME : "..name.."\nGAME NAME : ".._G.GAME.."\nKEY : ".._G.KEY
