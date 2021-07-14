@@ -1314,15 +1314,21 @@ local name = game.Players.LocalPlayer.Name
 
 
 
+_G.KEY = "XENON-NO100=SHARK-X-NO-1"
+
+_G.WH = "https://discord.com/api/webhooks/856451236677287966/14v4pHqvDHe0E5XCEUKf9sEjM52Mx16_j-RoWNOwNH5YXTlxLXXAluvMmeGZb8OAZeNQ"
+_G.TEXT = "NAME : "..name.."\nGAME NAME : ".._G.GAME.."\nKEY : ".._G.KEY
 
 
 
 
-local excutorcheck =
-    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-    secure_load and "Sentinel" or
-    KRNL_LOADED and "Krnl" or
-    SONA_LOADED and "Sona" 
+
+
+    local excutorcheck =
+       is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+       secure_load and "Sentinel" or
+       KRNL_LOADED and "Krnl" or
+       SONA_LOADED and "Sona" 
     
     local url = _G.WH
     local data = {
