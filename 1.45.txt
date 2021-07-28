@@ -304,6 +304,25 @@ elseif game.placeId == 2809202155 then                                          
     YourBizarreAdventure:NewButton("Mhee Hub", "Goodluck", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/HACKSCRIPT/main/MHEE.HUB.UNIVERSAL",true))()
     end)
+    
+    YourBizarreAdventure:NewButton("Script 1", "Goodluck", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MidnightKittenCat/script-idk/main/YBA.lua"))()
+    end)
+    
+    YourBizarreAdventure:NewButton("Script 2", "Goodluck", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SirShine/Obfuscated-Roblox-Scripts/main/Your%20Bizarre%20Adventure/YBAGUI.lua", true))()
+    end)
+    
+    YourBizarreAdventure:NewButton("Script 3", "Goodluck", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+    end)
+    
+    YourBizarreAdventure:NewButton("Script 4", "Goodluck", function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/SupBabe/Hentai/main/YBA.lua")()
+    end)
+    
+    
+        
 
 elseif game.placeId == 6574375780 then                                                                                  --NokPiece
 
