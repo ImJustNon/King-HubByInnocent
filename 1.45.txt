@@ -333,6 +333,7 @@ elseif game.placeId == 2809202155 then                                          
         loadstring(game:HttpGet("https://remcc.xyz/free/monke.lua"))();
     end)
 
+
 elseif game.placeId == 6574375780 then                                                                                  --NokPiece
 
     local Tab = Window:NewTab("NokPiece")
