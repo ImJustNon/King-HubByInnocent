@@ -321,8 +321,17 @@ elseif game.placeId == 2809202155 then                                          
         loadstring(game:HttpGet"https://raw.githubusercontent.com/SupBabe/Hentai/main/YBA.lua")()
     end)
     
+    YourBizarreAdventure:NewButton("Rem Hub", "Goodluck", function()
+        loadstring(game:HttpGet("https://remcc.xyz/amogus.lua"))();
+    end)
     
-        
+    YourBizarreAdventure:NewButton("Script 5", "Goodluck", function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/Chrrxs/d2dfdcde75c2d11b173aa664c0a6b755/raw", true))()
+    end)
+    
+    YourBizarreAdventure:NewButton("Rem Hub(2)", "Goodluck", function()
+        loadstring(game:HttpGet("https://remcc.xyz/free/monke.lua"))();
+    end)
 
 elseif game.placeId == 6574375780 then                                                                                  --NokPiece
 
